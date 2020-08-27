@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Broker - Please complete as much as possible
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <form>
+                            <h5>Applicant 1 Details</h5>
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="text" class="form-control form-control-sm" placeholder="First name">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Last name">
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control form-control-sm" placeholder="Email">
+                                </div>
+                                <div class="col">
+                                    <input type="date" class="form-control form-control-sm" placeholder="Last name">
+                                </div>
+                            </div>
+
+                            <h5>Applicant 2 Details</h5>
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="text" class="form-control form-control-sm" placeholder="First name">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Last name">
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control form-control-sm" placeholder="Email">
+                                </div>
+                                <div class="col">
+                                    <input type="date" class="form-control form-control-sm" placeholder="Last name">
+                                </div>
+                            </div>
+
+                            <!------------------- First visit to Office ----------------------------->
+                            <div class="form-row">
+                                <div class="col col-sm-3">
+                                    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">First visit to the office?</label>
+                                </div>
+
+                                <div class="col col-sm-6">
+                                    <select class="custom-select my-1 mr-sm-2 col-sm-6" id="inlineFormCustomSelectPref">
+                                        <option selected>Choose option...</option>
+                                        <option value="1">Yes - first visit to office</option>
+                                        <option value="2">No - Not new to office location or interstate</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <!------------------- New to business or existing ----------------------------->
+                            <div class="form-row">
+                                <div class="col col-sm-3">
+                                    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">New to business or existing?</label>
+                                </div>
+
+                                <div class="col col-sm-6">
+                                    <select class="custom-select my-1 mr-sm-2 col-sm-6" id="inlineFormCustomSelectPref">
+                                        <option selected>Choose option...</option>
+                                        <option value="1">New Client</option>
+                                        <option value="2">Existing Client</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+                            <!------------------- Lender if known ----------------------------->
+                            <h5>Lender if known</h5>
+                            <div class="form-row">
+                                <div class="col col-sm-6">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Address">
+                                </div>
+
+                                <div class="col col-sm-6">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Value Estimate">
+                                </div>
+
+                                <div class="col col-sm-6">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Loan Req">
+                                </div>
+
+                                <div class="col col-sm-6">
+                                    <select class="custom-select my-1 mr-sm-2 col-sm-6" id="inlineFormCustomSelectPref">
+                                        <option selected>Choose option...</option>
+                                        <option value="1">OO P&I</option>
+                                        <option value="2">OO IO</option>
+                                        <option value="2">IHL P&I</option>
+                                        <option value="2">IHL IO</option>
+                                    </select>
+                                </div>
+
+                                <div class="col col-sm-6">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Loan Req2">
+                                </div>
+                                <div class="col col-sm-6">
+                                    <select class="custom-select my-1 mr-sm-2 col-sm-6" id="inlineFormCustomSelectPref">
+                                        <option selected>Choose option...</option>
+                                        <option value="1">OO P&I</option>
+                                        <option value="2">OO IO</option>
+                                        <option value="2">IHL P&I</option>
+                                        <option value="2">IHL IO</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <!-- JS, Popper.js, and jQuery -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
